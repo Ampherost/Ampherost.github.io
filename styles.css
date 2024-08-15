@@ -12,8 +12,38 @@ body {
 header {
     background-color: navy;
     color: #fff;
-    padding: 1rem;
+    padding: 10px 20px;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left {
+    flex: 1;
+}
+
+.header-center {
+    flex: 2;
+    text-align: center;
+}
+
+.header-right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.headerButton {
+    background-color: rgb(0, 67, 67);
+    color: blue;
+    border-color: navy;
+    border-style: solid;
+    height: 60px;
+    width: 150px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
 }
 
 nav ul {
