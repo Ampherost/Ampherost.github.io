@@ -1,5 +1,5 @@
 body {
-    background-image: url('portBackground.png');
+    background-image: url('assets/portBackground.png');
     background-size: cover; /* Ensures the image covers the entire screen */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-attachment: fixed; /* Keeps the background fixed while scrolling */
