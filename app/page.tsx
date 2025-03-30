@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 
 // src/app/page.tsx
 
@@ -49,10 +49,10 @@ export default function Home() {
       <section id="about" className="p-8">
         <h2 className="text-2xl font-bold mb-4">About Me</h2>
         <p className="mb-4">
-          Hello! I'm an aspiring software engineer and a dedicated computer science student with a passion for problem-solving and a love for coding.
+          Hello! I am an aspiring software engineer and a dedicated computer science student with a passion for problem-solving and a love for coding.
         </p>
         <p className="mb-4">
-          I'm particularly interested in <strong>Software engineering, Web development, cybersecurity</strong>, and I'm constantly seeking opportunities to learn, grow, and contribute to exciting projects.
+          I am particularly interested in <strong>Software engineering, Web development, cybersecurity</strong>, and I am constantly seeking opportunities to learn, grow, and contribute to exciting projects.
         </p>
         <p>
           Outside of coding, I enjoy <strong>PC building, playing chess, hiking, and gym</strong>, which help me stay balanced and bring creativity into my work.
