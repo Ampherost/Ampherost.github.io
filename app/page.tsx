@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main className="bg-sky-100 text-black text-xl min-h-screen">
       {/* Header */}
-      <header className="bg-navy text-white p-4 flex flex-col md:flex-row justify-between items-center">
+      <header className="bg-navy text-black p-4 flex flex-col md:flex-row justify-between items-center">
         <div className="flex-1 text-left">
           <p className="text-2xl font-bold">Russell Ly</p>
         </div>
