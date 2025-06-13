@@ -1,45 +1,10 @@
+import Header from "./components/Header";
+
 export default function Home() {
   return (
     <main className="bg-sky-100 text-black text-xl min-h-screen">
       {/* Header */}
-      <header className="bg-navy text-black p-4 flex flex-col md:flex-row justify-between items-center">
-        <div className="flex-1 text-left">
-          <p className="text-2xl font-bold">Russell Ly</p>
-        </div>
-        <div className="flex-1 text-center">
-          <h1 className="text-3xl font-bold">Welcome to My Portfolio</h1>
-        </div>
-        <div className="flex-1 flex justify-end">
-          <nav>
-            <ul className="flex flex-wrap gap-4 justify-end">
-              <li>
-                <a
-                  href="#about"
-                  className="bg-yellow-400 text-blue-900 border border-navy rounded-xl px-4 py-2 text-lg"
-                >
-                  About
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#projects"
-                  className="bg-yellow-400 text-blue-900 border border-navy rounded-xl px-4 py-2 text-lg"
-                >
-                  Projects
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#contact"
-                  className="bg-yellow-400 text-blue-900 border border-navy rounded-xl px-4 py-2 text-lg"
-                >
-                  Contact
-                </a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </header>
+      <Header />
 
       {/* About Me */}
       <section id="about" className="p-8">
