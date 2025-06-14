@@ -1,12 +1,19 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Header = () => {
   return (
     <header className="bg-zinc-900 shadow-md">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        {/* Logo / Brand */}
-        <Link href="/" className="text-2xl font-bold text-white">
-          Tech Portfolio
+        {/* Logo and title */}
+        <Link href="/" className="flex items-center space-x-2 text-white">
+          <Image
+            src="/assets/portLogoTrans.png"
+            alt="Logo"
+            width={60}
+            height={60}
+          />
+          <span className="text-2xl font-semibold">Tech Portfolio</span>
         </Link>
 
         {/* Navigation */}
