@@ -1,9 +1,10 @@
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 import Container from "./components/Container";
 
 export default function Home() {
   return (
-    <main className="bg-sky-100 text-black text-xl min-h-screen">
+    <main className="bg-sky-100 dark:bg-zinc-900 text-white text-xl min-h-screen">
       {/* Header */}
       <Header />
 
@@ -75,7 +76,7 @@ export default function Home() {
             <li>
               <a
                 href="https://github.com/Ampherost/CodeConquest"
-                className="text-blue-700 underline"
+                className="text-blue-200 underline"
               >
                 CodeConquest
               </a>
@@ -83,7 +84,7 @@ export default function Home() {
             <li>
               <a
                 href="https://github.com/ramirez-nathan/Power-Play"
-                className="text-blue-700 underline"
+                className="text-blue-200 underline"
               >
                 Power Play
               </a>
@@ -91,7 +92,7 @@ export default function Home() {
             <li>
               <a
                 href="https://github.com/ramirez-nathan/CaveCrusade"
-                className="text-blue-700 underline"
+                className="text-blue-200 underline"
               >
                 Cave Crusade
               </a>
@@ -99,7 +100,7 @@ export default function Home() {
             <li>
               <a
                 href="https://github.com/Ampherost/Nurtition-website"
-                className="text-blue-700 underline"
+                className="text-blue-200 underline"
               >
                 Nutrition Website
               </a>
@@ -107,7 +108,7 @@ export default function Home() {
             <li>
               <a
                 href="https://github.com/Ampherost/FE-echoes-shard-simulator"
-                className="text-blue-700 underline"
+                className="text-blue-200 underline"
               >
                 Fire Emblem Echoes Shard Simulator
               </a>
@@ -115,7 +116,7 @@ export default function Home() {
             <li>
               <a
                 href="https://github.com/Ampherost/AI-TicTacToe"
-                className="text-blue-700 underline"
+                className="text-blue-200 underline"
               >
                 AI TicTacToe
               </a>
@@ -134,13 +135,15 @@ export default function Home() {
             Email:{" "}
             <a
               href="mailto:russell.g.ly@gmail.com"
-              className="text-blue-700 underline"
+              className="text-blue-200 underline"
             >
               russell.g.ly@gmail.com
             </a>
           </p>
         </Container>
       </section>
+       {/* Footer */}
+      <Footer />
     </main>
   );
 }
