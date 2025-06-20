@@ -55,7 +55,7 @@ export default function Home() {
       ].map((skill) => (
         <span
           key={skill}
-          className="bg-blue-200 text-blue-800 px-3 py-1 rounded-full text-sm"
+          className="bg-blue-300 text-blue-900 px-3 py-1 rounded-full text-sm"
         >
           {skill}
         </span>
@@ -76,7 +76,7 @@ export default function Home() {
             <li>
               <a
                 href="https://github.com/Ampherost/CodeConquest"
-                className="text-blue-200 underline"
+                className="text-blue-300 hover:text-blue-200"
               >
                 CodeConquest
               </a>
@@ -84,7 +84,7 @@ export default function Home() {
             <li>
               <a
                 href="https://github.com/ramirez-nathan/Power-Play"
-                className="text-blue-200 underline"
+                className="text-blue-300 hover:text-blue-200"
               >
                 Power Play
               </a>
@@ -92,7 +92,7 @@ export default function Home() {
             <li>
               <a
                 href="https://github.com/ramirez-nathan/CaveCrusade"
-                className="text-blue-200 underline"
+                className="text-blue-300 hover:text-blue-200"
               >
                 Cave Crusade
               </a>
@@ -100,7 +100,7 @@ export default function Home() {
             <li>
               <a
                 href="https://github.com/Ampherost/Nurtition-website"
-                className="text-blue-200 underline"
+                className="text-blue-300 hover:text-blue-200"
               >
                 Nutrition Website
               </a>
@@ -108,7 +108,7 @@ export default function Home() {
             <li>
               <a
                 href="https://github.com/Ampherost/FE-echoes-shard-simulator"
-                className="text-blue-200 underline"
+                className="text-blue-300 hover:text-blue-200"
               >
                 Fire Emblem Echoes Shard Simulator
               </a>
@@ -116,7 +116,7 @@ export default function Home() {
             <li>
               <a
                 href="https://github.com/Ampherost/AI-TicTacToe"
-                className="text-blue-200 underline"
+                className="text-blue-300 hover:text-blue-200"
               >
                 AI TicTacToe
               </a>
@@ -135,7 +135,7 @@ export default function Home() {
             Email:{" "}
             <a
               href="mailto:russell.g.ly@gmail.com"
-              className="text-blue-200 underline"
+              className="text-blue-300 hover:text-blue-200"
             >
               russell.g.ly@gmail.com
             </a>
