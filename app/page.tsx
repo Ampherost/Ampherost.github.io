@@ -33,36 +33,59 @@ export default function Home() {
 
 
       {/* Skillz */}
-      <section id="skills" className="p-8">
-  <Container
-    title="Skills"
-    className=""
-  >
-    <div className="flex flex-wrap gap-2">
-      {[
-        "JavaScript",
-        "TypeScript",
-        "React",
-        "Next.js",
-        "Tailwind CSS",
-        "Node.js",
-        "Express",
-        "Python",
-        "Django",
-        "SQL",
-        "Git",
-        "Docker",
-      ].map((skill) => (
-        <span
-          key={skill}
-          className="bg-blue-300 text-blue-900 px-3 py-1 rounded-full text-sm"
-        >
-          {skill}
-        </span>
-      ))}
+<section id="skills" className="p-8">
+  <Container title="Skills" className="">
+    <div className="space-y-6">
+      {/* Programming Languages */}
+      <div>
+        <h3 className="text-lg font-semibold mb-2">Programming Languages</h3>
+        <div className="flex flex-wrap gap-2">
+          {["JavaScript", "TypeScript", "Python", "SQL"].map((skill) => (
+            <span
+              key={skill}
+              className="bg-blue-300 text-blue-900 px-3 py-1 rounded-full text-sm"
+            >
+              {skill}
+            </span>
+          ))}
+        </div>
+      </div>
+
+      {/* Frameworks & Libraries */}
+      <div>
+        <h3 className="text-lg font-semibold mb-2">Frameworks & Libraries</h3>
+        <div className="flex flex-wrap gap-2">
+          {["React", "Next.js", "Tailwind CSS", "Node.js", "Express", "Django"].map(
+            (skill) => (
+              <span
+                key={skill}
+                className="bg-blue-300 text-blue-900 px-3 py-1 rounded-full text-sm"
+              >
+                {skill}
+              </span>
+            )
+          )}
+        </div>
+      </div>
+
+      {/* Tools */}
+      <div>
+        <h3 className="text-lg font-semibold mb-2">Tools</h3>
+        <div className="flex flex-wrap gap-2">
+          {["Git", "Docker"].map((skill) => (
+            <span
+              key={skill}
+              className="bg-blue-300 text-blue-900 px-3 py-1 rounded-full text-sm"
+            >
+              {skill}
+            </span>
+          ))}
+        </div>
+      </div>
     </div>
   </Container>
 </section>
+
 
       
 
