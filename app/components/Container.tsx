@@ -31,7 +31,7 @@ export default function Container({
   return (
     <div
       className={
-        `dark:bg-zinc-800 p-8 rounded-2xl shadow-lg ${className}`
+        `dark:bg-zinc-800 p-8 rounded-2xl ${className}`
       }
     >
       <div className="flex items-center space-x-2 mb-4">

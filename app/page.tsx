@@ -4,10 +4,11 @@ import Container from "./components/Container";
 
 export default function Home() {
   return (
-    <main className="bg-sky-100 dark:bg-zinc-900 text-white text-xl min-h-screen">
+    <div className="min-h-screen flex flex-col bg-white dark:bg-zinc-900 text-zinc-900 dark:text-zinc-100 text-xl">
       {/* Header */}
       <Header />
 
+    <main className="flex-grow">
       {/* About Me */}
       <section id="about" className="p-8">
         <Container title="About Me">
@@ -40,7 +41,7 @@ export default function Home() {
       <div>
         <h3 className="text-lg font-semibold mb-2">Programming Languages</h3>
         <div className="flex flex-wrap gap-2">
-          {["JavaScript", "TypeScript", "Python", "SQL"].map((skill) => (
+          {["C++", "C", "C#", "Python", "JavaScript", "TypeScript", "Rust", "HTML", "CSS"].map((skill) => (
             <span
               key={skill}
               className="bg-blue-300 text-blue-900 px-3 py-1 rounded-full text-sm"
@@ -55,7 +56,7 @@ export default function Home() {
       <div>
         <h3 className="text-lg font-semibold mb-2">Frameworks & Libraries</h3>
         <div className="flex flex-wrap gap-2">
-          {["React", "Next.js", "Tailwind CSS", "Node.js", "Express", "Django"].map(
+          {["React", "Next.js", "Tailwind CSS", "Node.js", "Supabase", "Express", "Django"].map(
             (skill) => (
               <span
                 key={skill}
@@ -72,7 +73,52 @@ export default function Home() {
       <div>
         <h3 className="text-lg font-semibold mb-2">Tools</h3>
         <div className="flex flex-wrap gap-2">
-          {["Git", "Docker"].map((skill) => (
+          {["Git", "Github", "Google Test", "Pytest", "Jest", "React Testing Library", "Docker"].map((skill) => (
+            <span
+              key={skill}
+              className="bg-blue-300 text-blue-900 px-3 py-1 rounded-full text-sm"
+            >
+              {skill}
+            </span>
+          ))}
+        </div>
+      </div>
+
+      {/* Development Skills */}
+      <div>
+        <h3 className="text-lg font-semibold mb-2">Development Skills</h3>
+        <div className="flex flex-wrap gap-2">
+          {["Test-driven development", "CI/CD deployment", "SOLID Principles"].map((skill) => (
+            <span
+              key={skill}
+              className="bg-blue-300 text-blue-900 px-3 py-1 rounded-full text-sm"
+            >
+              {skill}
+            </span>
+          ))}
+        </div>
+      </div>
+
+      {/* Management */}
+      <div>
+        <h3 className="text-lg font-semibold mb-2">Management</h3>
+        <div className="flex flex-wrap gap-2">
+          {["Scrum", "Kanban", "Github projects", "Jira"].map((skill) => (
+            <span
+              key={skill}
+              className="bg-blue-300 text-blue-900 px-3 py-1 rounded-full text-sm"
+            >
+              {skill}
+            </span>
+          ))}
+        </div>
+      </div>
+
+      {/* Certifications */}
+      <div>
+        <h3 className="text-lg font-semibold mb-2">Certifications</h3>
+        <div className="flex flex-wrap gap-2">
+          {["Google Cloud", "Agile", "Docker", "Kubernetes", "Finops"].map((skill) => (
             <span
               key={skill}
               className="bg-blue-300 text-blue-900 px-3 py-1 rounded-full text-sm"
@@ -164,10 +210,12 @@ export default function Home() {
             </a>
           </p>
         </Container>
-      </section>
+       </section>
+      </main>
+
        {/* Footer */}
       <Footer />
-    </main>
+    </div>
   );
 }
 
