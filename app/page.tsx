@@ -30,6 +30,49 @@ export default function Home() {
         </Container>
       </section>
 
+      {/* Relevant Coursework */}
+      <section id="relevant-coursework" className="p-8">
+        <Container
+          title="Relevant Coursework"
+          className=""
+        >
+
+         <div className="space-y-6">
+      {/* Core Classes */}
+      <div>
+        <h3 className="text-lg font-semibold mb-2">Core Classes</h3>
+        <div className="flex flex-wrap gap-2">
+          {["Data Structures & Algorithms", "Software Construction", "Discrete Structures", "Computer Architecture", "Operating Systems", "Formal Languages & Automata", "Compilers", "Logic Design" ].map((skill) => (
+            <span
+              key={skill}
+              className="bg-blue-300 text-blue-900 px-3 py-1 rounded-full text-sm"
+            >
+              {skill}
+            </span>
+          ))}
+        </div>
+      </div>
+
+      {/* Tech Electives */}
+      <div>
+        <h3 className="text-lg font-semibold mb-2">Technical Electives</h3>
+        <div className="flex flex-wrap gap-2">
+          {["Algorithm Engineering", "Software Engineering", "Unix Systems Administration", "Senior Design Project", "Database Management Systems", "Computing Entrepreneurship", "Artificial Intelligence", "Software Testing" ].map(
+            (skill) => (
+              <span
+                key={skill}
+                className="bg-blue-300 text-blue-900 px-3 py-1 rounded-full text-sm"
+              >
+                {skill}
+              </span>
+            )
+          )}
+        </div>
+      </div>
+    </div>
+  </Container>
+       </section>
+
 
 
 
@@ -56,7 +99,7 @@ export default function Home() {
       <div>
         <h3 className="text-lg font-semibold mb-2">Frameworks & Libraries</h3>
         <div className="flex flex-wrap gap-2">
-          {["React", "Next.js", "Tailwind CSS", "Node.js", "Supabase", "Express", "Django"].map(
+          {["React", "Next.js", "Tailwind CSS", "Node.js", "Supabase", "Express", "Django", ".NET"].map(
             (skill) => (
               <span
                 key={skill}
@@ -73,7 +116,7 @@ export default function Home() {
       <div>
         <h3 className="text-lg font-semibold mb-2">Tools</h3>
         <div className="flex flex-wrap gap-2">
-          {["Git", "Github", "Google Test", "Pytest", "Jest", "React Testing Library", "Docker"].map((skill) => (
+          {["Git", "Github", "Google Test", "Pytest", "Jest", "React Testing Library", "Travis CI", "Cmake/make", "gcov/lcov", "Docker", "SFML"].map((skill) => (
             <span
               key={skill}
               className="bg-blue-300 text-blue-900 px-3 py-1 rounded-full text-sm"
@@ -88,7 +131,7 @@ export default function Home() {
       <div>
         <h3 className="text-lg font-semibold mb-2">Development Skills</h3>
         <div className="flex flex-wrap gap-2">
-          {["Test-driven development", "CI/CD deployment", "SOLID Principles"].map((skill) => (
+          {["Test-driven development", "Unit & Integration Testing", "CI/CD deployment", "SOLID Principles", "Design Patterns", "Agile Practices", "Version Control Workflows"].map((skill) => (
             <span
               key={skill}
               className="bg-blue-300 text-blue-900 px-3 py-1 rounded-full text-sm"
