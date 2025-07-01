@@ -11,15 +11,15 @@ export default function Home() {
     <main className="flex-grow">
       {/* About Me */}
       <section id="about" className="p-8">
-        <Container title="About Me">
+        <Container title="About Me" className="bg-gradient-to-b from-[#d0bda9] to-[#91857a]">
           <p className="mb-4">
-            Hello! I am an aspiring software engineer and a dedicated computer science
+            Hello! I am an aspiring software engineer and a dedicated <strong>BS + MS</strong> computer science
             student with a passion for problem-solving, building impactful applications,
             and a love for coding.
           </p>
           <p className="mb-4">
             I am particularly interested in <strong>Software engineering, Web development,
-            cybersecurity, AI/Machine learning</strong>, and I am constantly seeking
+            Cybersecurity, AI/Machine learning, Automomous Systems, Defense, Robotics, and Fintech</strong>, and I am constantly seeking
             opportunities to learn, grow, and contribute to exciting projects.
           </p>
           <p>

@@ -29,11 +29,7 @@ export default function Container({
   contentClassName = "prose dark:prose-invert",
 }: ContainerProps) {
   return (
-    <div
-      className={
-        `dark:bg-zinc-800 p-8 rounded-2xl ${className}`
-      }
-    >
+    <div className={`p-8 rounded-2xl ${className || "dark:bg-zinc-800"}`}>
       <div className="flex items-center space-x-2 mb-4">
         {icon && <div className="w-6 h-6">{icon}</div>}
         {iconSrc && (
