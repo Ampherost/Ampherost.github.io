@@ -18,9 +18,9 @@ export default function Home() {
             and a love for coding.
           </p>
           <p className="mb-4">
-            I am particularly interested in <strong>Software engineering, Web development,
-            Cybersecurity, AI/Machine learning, Automomous Systems, Defense, Robotics, and Fintech</strong>, and I am constantly seeking
-            opportunities to learn, grow, and contribute to exciting projects.
+            I am especially passionate about <strong>Software engineering, AI/ML, and cybersecurity</strong>,
+            and I am deeply interested in fields like <strong>defense, autonomous systems, fintech, and 
+            robotics</strong>. I am constantly seeking opportunities to learn, grow, and contribute to exciting projects.
           </p>
           <p>
             Outside of coding, I enjoy <strong>PC building, playing chess, hiking,
@@ -211,26 +211,18 @@ export default function Home() {
             </li>
             <li>
               <a
-                href="https://github.com/Ampherost/Nurtition-website"
+                href="https://github.com/Ampherost/Algorithm-Engineering"
                 className="text-blue-300 hover:text-blue-200"
               >
-                Nutrition Website
+                Algorithm Engineering
               </a>
             </li>
             <li>
               <a
-                href="https://github.com/Ampherost/FE-echoes-shard-simulator"
+                href="https://github.com/Ampherost/AI-Projects"
                 className="text-blue-300 hover:text-blue-200"
               >
-                Fire Emblem Echoes Shard Simulator
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/Ampherost/AI-TicTacToe"
-                className="text-blue-300 hover:text-blue-200"
-              >
-                AI TicTacToe
+                AI Projects
               </a>
             </li>
           </ul>
