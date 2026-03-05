@@ -15,21 +15,21 @@ const projects = [
     name: "Power Play",
     href: "https://github.com/ramirez-nathan/Power-Play",
     description:
-      "An interactive web app for tracking and analyzing sports team performance with real-time stats.",
-    tech: ["c#", "React", "Supabase"],
+      "An interactive 2D platform fighter game with unique character abilities, dynamic levels, and local multiplayer support.",
+    tech: ["C#", "Unity"],
   },
   {
     name: "Cave Crusade",
     href: "https://github.com/ramirez-nathan/CaveCrusade",
     description:
-      "A dungeon-crawling adventure game with procedurally generated caves, enemies, and loot systems.",
-    tech: ["C++", "SFML"],
+      "A dungeon-crawling adventure game with caves, enemies, and loot systems.",
+    tech: ["C++", "SFML", "Google Test"],
   },
   {
     name: "Algorithm Engineering",
     href: "https://github.com/Ampherost/Algorithm-Engineering",
     description:
-      "A collection of optimized algorithm implementations and performance benchmarks from coursework.",
+      "A collection of optimized algorithm implementations and performance benchmarks.",
     tech: ["C++", "Python"],
   },
   {
@@ -136,7 +136,7 @@ export default function Home() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center px-6 py-3 rounded-lg border border-zinc-600 hover:border-zinc-400 text-zinc-300 hover:text-white font-semibold text-sm transition-colors duration-200"
               >
-                GitHub &nearr;
+                GitHub &#x2197;
               </a>
             </div>
           </div>
@@ -288,7 +288,7 @@ export default function Home() {
                       {project.name}
                     </h3>
                     <span className="text-zinc-400 group-hover:text-sky-500 transition-colors text-sm">
-                      &nearr;
+                      {"\u2197"}
                     </span>
                   </div>
                   <p className="text-sm text-zinc-600 dark:text-zinc-400 mb-3 leading-relaxed">
