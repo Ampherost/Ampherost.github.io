@@ -37,7 +37,7 @@ const Header = () => {
             width={48}
             height={48}
           />
-          <span className="text-xl font-bold tracking-tight">Russell Ly</span>
+          <span className="text-xl font-bold tracking-tight">Tech Portfolio</span>
         </Link>
 
         {/* Desktop Navigation */}
