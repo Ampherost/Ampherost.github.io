@@ -176,6 +176,90 @@ export default function Home() {
           </Container>
         </section>
 
+        {/* ── Experience ────────────────────────────────── */}
+        <section id="experience" className="px-8 py-12 max-w-5xl mx-auto">
+          <Container title="Experience">
+            <div className="relative pl-6 border-l-2 border-sky-500/30 dark:border-sky-400/20">
+              {/* Timeline dot */}
+              <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-sky-500 border-2 border-white dark:border-zinc-900" />
+ 
+              <div className="pb-2">
+                {/* Role header */}
+                <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-1">
+                  <h3 className="text-lg font-bold">
+                    Frontend Software Engineer
+                  </h3>
+                  <span className="text-sm text-zinc-500 dark:text-zinc-400 font-medium">
+                    Dec 2024 &ndash; Jan 2026
+                  </span>
+                </div>
+                <p className="text-base font-medium text-sky-600 dark:text-sky-400 mb-4">
+                  ACM &middot; Web Development Club &middot; Riverside, CA
+                </p>
+ 
+                {/* Accomplishments */}
+                <ul className="space-y-3 text-sm leading-relaxed text-zinc-700 dark:text-zinc-300">
+                  <li className="flex gap-3">
+                    <span className="mt-1.5 block h-1.5 w-1.5 flex-shrink-0 rounded-full bg-sky-500" />
+                    <span>
+                      Developed and maintained responsive web applications using{" "}
+                      <strong>Next.js</strong> and <strong>Tailwind CSS</strong>,
+                      utilizing a modular and scalable architecture to streamline
+                      development processes.
+                    </span>
+                  </li>
+                  <li className="flex gap-3">
+                    <span className="mt-1.5 block h-1.5 w-1.5 flex-shrink-0 rounded-full bg-sky-500" />
+                    <span>
+                      Boosted user engagement by <strong>45%</strong> through the
+                      implementation of user-friendly interfaces and accessible
+                      designs across desktop and mobile platforms.
+                    </span>
+                  </li>
+                  <li className="flex gap-3">
+                    <span className="mt-1.5 block h-1.5 w-1.5 flex-shrink-0 rounded-full bg-sky-500" />
+                    <span>
+                      Reduced code review time by <strong>20%</strong> by
+                      integrating Prettier and ESLint, ensuring consistent and
+                      high-quality code.
+                    </span>
+                  </li>
+                  <li className="flex gap-3">
+                    <span className="mt-1.5 block h-1.5 w-1.5 flex-shrink-0 rounded-full bg-sky-500" />
+                    <span>
+                      Enhanced SEO rankings and reduced page load times by{" "}
+                      <strong>40%</strong> through server-side rendering and
+                      static site generation in Next.js.
+                    </span>
+                  </li>
+                  <li className="flex gap-3">
+                    <span className="mt-1.5 block h-1.5 w-1.5 flex-shrink-0 rounded-full bg-sky-500" />
+                    <span>
+                      Collaborated with a team of <strong>11 developers</strong>{" "}
+                      to design and implement reusable UI components using
+                      Tailwind CSS, accelerating development timelines by{" "}
+                      <strong>30%</strong> and ensuring design consistency across
+                      projects.
+                    </span>
+                  </li>
+                </ul>
+ 
+                {/* Tech tags */}
+                <div className="flex flex-wrap gap-1.5 mt-5">
+                  {["Next.js", "Tailwind CSS", "ESLint", "Prettier", "SSR/SSG"].map((t) => (
+                    <span
+                      key={t}
+                      className="text-xs px-2 py-0.5 rounded bg-sky-100 dark:bg-sky-900/30 text-sky-700 dark:text-sky-300 font-medium"
+                    >
+                      {t}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </Container>
+        </section>
+
         {/* ── Relevant Coursework ─────────────────────────── */}
         <section id="relevant-coursework" className="px-8 py-12 max-w-5xl mx-auto">
           <Container title="Relevant Coursework">
