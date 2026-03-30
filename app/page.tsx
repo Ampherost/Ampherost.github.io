@@ -103,7 +103,7 @@ export default function Home() {
           />
           <div className="relative container mx-auto px-8 py-24 md:py-32 max-w-4xl">
             <p className="text-sm uppercase tracking-[0.25em] text-zinc-400 mb-4 font-medium">
-              Software Engineer &middot; CS Student
+              Software Engineer &middot; CS Graduate
             </p>
             <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight leading-tight mb-6">
               Hi, I&apos;m{" "}
