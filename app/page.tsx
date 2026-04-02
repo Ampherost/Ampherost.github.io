@@ -119,9 +119,9 @@ export default function Home() {
               <strong className="text-white">UC Riverside</strong> with a strong
               foundation across{" "}
               <strong className="text-white">
-                software engineering, systems, and DevOps
-              </strong>{" "}
-              — specializing in{" "}
+              software engineering, systems, and DevOps
+              </strong>
+              , with a focus on{" "}
               <strong className="text-white">full-stack web development</strong>{" "}
               and building fast, scalable, user-focused applications.
             </p>
