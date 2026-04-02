@@ -112,10 +112,9 @@ export default function Home() {
               </span>
             </h1>
             <p className="text-lg md:text-xl text-zinc-300 max-w-2xl leading-relaxed mb-10">
-              Aspiring new graduate with a {" "}
-              <strong className="text-white">BS in Computer Science</strong>.
-              Passionate about building impactful software at the intersection of{" "}
-              <strong className="text-white">AI/ML, cybersecurity, and systems engineering</strong>.
+            CS graduate from <strong className="text-white">UC Riverside</strong> with a strong foundation across{" "}
+            <strong className="text-white">software engineering, systems, and DevOps</strong> — specializing in{" "}
+            <strong className="text-white">full-stack web development</strong> and building fast, scalable, user-focused applications.
             </p>
             <div className="flex flex-wrap gap-4">
               <a
