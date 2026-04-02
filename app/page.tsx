@@ -74,7 +74,10 @@ function BadgeGroup({
       </h3>
       <div className="flex flex-wrap gap-2">
         {items.map((item) => (
-          <span key={item} className={`px-3 py-1 rounded-full text-sm font-medium ${style}`}>
+          <span
+            key={item}
+            className={`px-3 py-1 rounded-full text-sm font-medium ${style}`}
+          >
             {item}
           </span>
         ))}
@@ -112,9 +115,15 @@ export default function Home() {
               </span>
             </h1>
             <p className="text-lg md:text-xl text-zinc-300 max-w-2xl leading-relaxed mb-10">
-            CS graduate from <strong className="text-white">UC Riverside</strong> with a strong foundation across{" "}
-            <strong className="text-white">software engineering, systems, and DevOps</strong> — specializing in{" "}
-            <strong className="text-white">full-stack web development</strong> and building fast, scalable, user-focused applications.
+              CS graduate from{" "}
+              <strong className="text-white">UC Riverside</strong> with a strong
+              foundation across{" "}
+              <strong className="text-white">
+                software engineering, systems, and DevOps
+              </strong>{" "}
+              — specializing in{" "}
+              <strong className="text-white">full-stack web development</strong>{" "}
+              and building fast, scalable, user-focused applications.
             </p>
             <div className="flex flex-wrap gap-4">
               <a
@@ -149,27 +158,30 @@ export default function Home() {
           >
             <div className="space-y-4 text-base leading-relaxed">
               <p>
-                Hello! I am an aspiring software engineer and a dedicated{" "}
-                <strong>BS</strong> computer science student with a passion
-                for problem-solving, building impactful applications, and a love
-                for coding.
+                I'm a CS graduate from <strong>UC Riverside</strong> with
+                hands-on experience building{" "}
+                <strong>
+                  full-stack web applications, systems software, and developer
+                  tooling
+                </strong>
+                . I am passionate about writing clean, maintainable code and shipping
+                impactful software.
               </p>
               <p>
-                I am especially passionate about{" "}
-                <strong>software engineering, AI/ML, and cybersecurity</strong>,
-                and I am deeply interested in fields like{" "}
+                Beyond web development, I'm drawn to{" "}
                 <strong>
-                  defense, autonomous systems, fintech, and robotics
+                  systems engineering, DevOps, and the growing role of AI in
+                  software development
                 </strong>
-                . I am constantly seeking opportunities to learn, grow, and
-                contribute to exciting projects.
+                . Long term, I'm particularly interested in{" "}
+                <strong>defense tech and autonomous systems</strong>, fields
+                where software has real-world, high-stakes impact and where
+                engineering quality matters.
               </p>
               <p>
-                Outside of coding, I enjoy{" "}
-                <strong>
-                  PC building, playing chess, hiking, marksmanship, and gym
-                </strong>
-                , which help me stay balanced and bring creativity into my work.
+                Outside of coding, I enjoy building PCs, playing chess, hiking,
+                practicing marksmanship, and tracking my personal finances, which
+                keep me analytical, grounded, and sharpen my critical thinking.
               </p>
             </div>
           </Container>
@@ -181,7 +193,7 @@ export default function Home() {
             <div className="relative pl-6 border-l-2 border-sky-500/30 dark:border-sky-400/20">
               {/* Timeline dot */}
               <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-sky-500 border-2 border-white dark:border-zinc-900" />
- 
+
               <div className="pb-2">
                 {/* Role header */}
                 <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-1">
@@ -195,24 +207,24 @@ export default function Home() {
                 <p className="text-base font-medium text-sky-600 dark:text-sky-400 mb-4">
                   ACM &middot; Web Development Club &middot; Riverside, CA
                 </p>
- 
+
                 {/* Accomplishments */}
                 <ul className="space-y-3 text-sm leading-relaxed text-zinc-700 dark:text-zinc-300">
                   <li className="flex gap-3">
                     <span className="mt-1.5 block h-1.5 w-1.5 flex-shrink-0 rounded-full bg-sky-500" />
                     <span>
                       Developed and maintained responsive web applications using{" "}
-                      <strong>Next.js</strong> and <strong>Tailwind CSS</strong>,
-                      utilizing a modular and scalable architecture to streamline
-                      development processes.
+                      <strong>Next.js</strong> and <strong>Tailwind CSS</strong>
+                      , utilizing a modular and scalable architecture to
+                      streamline development processes.
                     </span>
                   </li>
                   <li className="flex gap-3">
                     <span className="mt-1.5 block h-1.5 w-1.5 flex-shrink-0 rounded-full bg-sky-500" />
                     <span>
-                      Boosted user engagement by <strong>45%</strong> through the
-                      implementation of user-friendly interfaces and accessible
-                      designs across desktop and mobile platforms.
+                      Boosted user engagement by <strong>45%</strong> through
+                      the implementation of user-friendly interfaces and
+                      accessible designs across desktop and mobile platforms.
                     </span>
                   </li>
                   <li className="flex gap-3">
@@ -237,15 +249,21 @@ export default function Home() {
                       Collaborated with a team of <strong>11 developers</strong>{" "}
                       to design and implement reusable UI components using
                       Tailwind CSS, accelerating development timelines by{" "}
-                      <strong>30%</strong> and ensuring design consistency across
-                      projects.
+                      <strong>30%</strong> and ensuring design consistency
+                      across projects.
                     </span>
                   </li>
                 </ul>
- 
+
                 {/* Tech tags */}
                 <div className="flex flex-wrap gap-1.5 mt-5">
-                  {["Next.js", "Tailwind CSS", "ESLint", "Prettier", "SSR/SSG"].map((t) => (
+                  {[
+                    "Next.js",
+                    "Tailwind CSS",
+                    "ESLint",
+                    "Prettier",
+                    "SSR/SSG",
+                  ].map((t) => (
                     <span
                       key={t}
                       className="text-xs px-2 py-0.5 rounded bg-sky-100 dark:bg-sky-900/30 text-sky-700 dark:text-sky-300 font-medium"
@@ -260,7 +278,10 @@ export default function Home() {
         </section>
 
         {/* ── Relevant Coursework ─────────────────────────── */}
-        <section id="relevant-coursework" className="px-8 py-12 max-w-5xl mx-auto">
+        <section
+          id="relevant-coursework"
+          className="px-8 py-12 max-w-5xl mx-auto"
+        >
           <Container title="Relevant Coursework">
             <div className="space-y-6">
               <BadgeGroup
@@ -302,25 +323,45 @@ export default function Home() {
               <BadgeGroup
                 label="Programming Languages"
                 items={[
-                  "C++", "C", "C#", "Python", "JavaScript",
-                  "TypeScript", "Rust", "HTML", "CSS",
+                  "C++",
+                  "C",
+                  "C#",
+                  "Python",
+                  "JavaScript",
+                  "TypeScript",
+                  "Rust",
+                  "HTML",
+                  "CSS",
                 ]}
                 style={badgeStyles.languages}
               />
               <BadgeGroup
                 label="Frameworks & Libraries"
                 items={[
-                  "React", "Next.js", "Tailwind CSS", "Node.js",
-                  "Supabase", "Express", "Django", ".NET",
+                  "React",
+                  "Next.js",
+                  "Tailwind CSS",
+                  "Node.js",
+                  "Supabase",
+                  "Express",
+                  "Django",
+                  ".NET",
                 ]}
                 style={badgeStyles.frameworks}
               />
               <BadgeGroup
                 label="Tools"
                 items={[
-                  "Git", "GitHub", "Google Test", "Pytest", "Jest",
-                  "React Testing Library", "Travis CI", "CMake/Make",
-                  "gcov/lcov", "Docker", "SFML",
+                  "Git",
+                  "GitHub",
+                  "Google Test",
+                  "Pytest",
+                  "Jest",
+                  "React Testing Library",
+                  "Travis CI",
+                  "CMake/Make",
+                  "gcov/lcov",
+                  "Docker",
                 ]}
                 style={badgeStyles.tools}
               />
@@ -345,8 +386,11 @@ export default function Home() {
               <BadgeGroup
                 label="Certifications"
                 items={[
-                  "Google Cloud", "Agile", "Docker",
-                  "Kubernetes", "FinOps",
+                  "Google Cloud",
+                  "Agile",
+                  "Docker",
+                  "Kubernetes",
+                  "FinOps",
                 ]}
                 style={badgeStyles.certs}
               />
@@ -426,5 +470,3 @@ export default function Home() {
     </div>
   );
 }
-
-
