@@ -158,7 +158,7 @@ export default function Home() {
           >
             <div className="space-y-4 text-base leading-relaxed">
               <p>
-                I'm a CS graduate from <strong>UC Riverside</strong> with
+                I am a CS graduate from <strong>UC Riverside</strong> with
                 hands-on experience building{" "}
                 <strong>
                   full-stack web applications, systems software, and developer
@@ -168,12 +168,12 @@ export default function Home() {
                 impactful software.
               </p>
               <p>
-                Beyond web development, I'm drawn to{" "}
+                Beyond web development, I am drawn to{" "}
                 <strong>
                   systems engineering, DevOps, and the growing role of AI in
                   software development
                 </strong>
-                . Long term, I'm particularly interested in{" "}
+                . Long term, I am particularly interested in{" "}
                 <strong>defense tech and autonomous systems</strong>, fields
                 where software has real-world, high-stakes impact and where
                 engineering quality matters.
