@@ -119,7 +119,7 @@ export default function Home() {
               <strong className="text-white">UC Riverside</strong> with a strong
               foundation across{" "}
               <strong className="text-white">
-              software engineering, systems, and DevOps
+                software engineering, systems, and DevOps
               </strong>
               , with a focus on{" "}
               <strong className="text-white">full-stack web development</strong>{" "}
@@ -164,8 +164,8 @@ export default function Home() {
                   full-stack web applications, systems software, and developer
                   tooling
                 </strong>
-                . I am passionate about writing clean, maintainable code and shipping
-                impactful software.
+                . I am passionate about writing clean, maintainable code and
+                shipping impactful software.
               </p>
               <p>
                 Beyond web development, I am drawn to{" "}
@@ -180,8 +180,9 @@ export default function Home() {
               </p>
               <p>
                 Outside of coding, I enjoy building PCs, playing chess, hiking,
-                practicing marksmanship, and tracking my personal finances, which
-                keep me analytical, grounded, and sharpen my critical thinking.
+                practicing marksmanship, and tracking my personal finances,
+                which keep me analytical, grounded, and sharpen my critical
+                thinking.
               </p>
             </div>
           </Container>
@@ -191,15 +192,91 @@ export default function Home() {
         <section id="experience" className="px-8 py-12 max-w-5xl mx-auto">
           <Container title="Experience">
             <div className="relative pl-6 border-l-2 border-sky-500/30 dark:border-sky-400/20">
-              {/* Timeline dot */}
-              <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-sky-500 border-2 border-white dark:border-zinc-900" />
+              {/* ── Handshake AI ── */}
+              <div className="relative pb-10">
+                {/* Timeline dot */}
+                <div className="absolute -left-[33px] top-1 w-4 h-4 rounded-full bg-sky-500 border-2 border-white dark:border-zinc-900" />
 
-              <div className="pb-2">
                 {/* Role header */}
                 <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-1">
                   <h3 className="text-lg font-bold">
-                    Software Engineer
+                    Software Engineer, AI Research
                   </h3>
+                  <span className="text-sm text-zinc-500 dark:text-zinc-400 font-medium">
+                    May 2026 &ndash; Present
+                  </span>
+                </div>
+                <p className="text-base font-medium text-sky-600 dark:text-sky-400 mb-4">
+                  Handshake AI &middot; Remote
+                </p>
+
+                {/* Accomplishments */}
+                <ul className="space-y-3 text-sm leading-relaxed text-zinc-700 dark:text-zinc-300">
+                  <li className="flex gap-3">
+                    <span className="mt-1.5 block h-1.5 w-1.5 flex-shrink-0 rounded-full bg-sky-500" />
+                    <span>
+                      Authored reference implementations and{" "}
+                      <strong>golden solutions</strong> for software engineering
+                      tasks drawn from real-world GitHub pull requests across
+                      complex, industry-grade codebases.
+                    </span>
+                  </li>
+                  <li className="flex gap-3">
+                    <span className="mt-1.5 block h-1.5 w-1.5 flex-shrink-0 rounded-full bg-sky-500" />
+                    <span>
+                      Designed automated test suites that fail without the
+                      target solution and pass with it, creating reliable
+                      evaluation benchmarks used to grade state-of-the-art AI
+                      models.
+                    </span>
+                  </li>
+                  <li className="flex gap-3">
+                    <span className="mt-1.5 block h-1.5 w-1.5 flex-shrink-0 rounded-full bg-sky-500" />
+                    <span>
+                      Analyzed and refined solutions to non-trivial engineering
+                      problems where current frontier models struggle, following
+                      language-idiomatic best practices and production code
+                      standards.
+                    </span>
+                  </li>
+                  <li className="flex gap-3">
+                    <span className="mt-1.5 block h-1.5 w-1.5 flex-shrink-0 rounded-full bg-sky-500" />
+                    <span>
+                      Contributed to the evaluation pipeline shaping how
+                      next-generation coding models are benchmarked, with work
+                      directly informing model training and performance
+                      measurement.
+                    </span>
+                  </li>
+                </ul>
+
+                {/* Tech tags */}
+                <div className="flex flex-wrap gap-1.5 mt-5">
+                  {[
+                    "Python",
+                    "TypeScript",
+                    "Git",
+                    "Automated Testing",
+                    "Code Review",
+                  ].map((t) => (
+                    <span
+                      key={t}
+                      className="text-xs px-2 py-0.5 rounded bg-sky-100 dark:bg-sky-900/30 text-sky-700 dark:text-sky-300 font-medium"
+                    >
+                      {t}
+                    </span>
+                  ))}
+                </div>
+              </div>
+
+              {/* ── ACM ── */}
+              <div className="relative pb-2">
+                {/* Timeline dot */}
+                <div className="absolute -left-[33px] top-1 w-4 h-4 rounded-full bg-sky-500 border-2 border-white dark:border-zinc-900" />
+
+                {/* Role header */}
+                <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-1">
+                  <h3 className="text-lg font-bold">Software Engineer</h3>
                   <span className="text-sm text-zinc-500 dark:text-zinc-400 font-medium">
                     Dec 2024 &ndash; Jan 2026
                   </span>
