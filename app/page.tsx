@@ -150,6 +150,7 @@ export default function Home() {
           </div>
         </section>
 
+
         {/* ── About Me ────────────────────────────────────── */}
         <section id="about" className="px-8 py-12 max-w-5xl mx-auto">
           <Container
@@ -188,14 +189,18 @@ export default function Home() {
           </Container>
         </section>
 
+
         {/* ── Experience ────────────────────────────────── */}
         <section id="experience" className="px-8 py-12 max-w-5xl mx-auto">
           <Container title="Experience">
-            <div className="relative pl-6 border-l-2 border-sky-500/30 dark:border-sky-400/20">
+            <div className="relative pl-6">
+              {/* Timeline line */}
+              <div className="absolute left-0 top-2 bottom-0 w-0.5 bg-sky-500/30 dark:bg-sky-400/20" />
+
               {/* ── Handshake AI ── */}
               <div className="relative pb-10">
                 {/* Timeline dot */}
-                <div className="absolute -left-[33px] top-1 w-4 h-4 rounded-full bg-sky-500 border-2 border-white dark:border-zinc-900" />
+                <div className="absolute -left-[31px] top-1 w-4 h-4 rounded-full bg-sky-500 border-2 border-white dark:border-zinc-900" />
 
                 {/* Role header */}
                 <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-1">
@@ -272,7 +277,7 @@ export default function Home() {
               {/* ── ACM ── */}
               <div className="relative pb-2">
                 {/* Timeline dot */}
-                <div className="absolute -left-[33px] top-1 w-4 h-4 rounded-full bg-sky-500 border-2 border-white dark:border-zinc-900" />
+                <div className="absolute -left-[31px] top-1 w-4 h-4 rounded-full bg-sky-500 border-2 border-white dark:border-zinc-900" />
 
                 {/* Role header */}
                 <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-1">
@@ -353,6 +358,7 @@ export default function Home() {
             </div>
           </Container>
         </section>
+
 
         {/* ── Relevant Coursework ─────────────────────────── */}
         <section
