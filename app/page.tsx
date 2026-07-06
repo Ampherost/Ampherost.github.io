@@ -205,7 +205,7 @@ export default function Home() {
                 {/* Role header */}
                 <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-1">
                   <h3 className="text-lg font-bold">
-                    Software Engineer, AI Research
+                    AI Software Engineer
                   </h3>
                   <span className="text-sm text-zinc-500 dark:text-zinc-400 font-medium">
                     May 2026 &ndash; Present
