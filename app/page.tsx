@@ -153,10 +153,7 @@ export default function Home() {
 
         {/* ── About Me ────────────────────────────────────── */}
         <section id="about" className="px-8 py-12 max-w-5xl mx-auto">
-          <Container
-            title="About Me"
-            className="bg-gradient-to-br from-[#d0bda9]/80 to-[#91857a]/80 dark:from-[#d0bda9]/20 dark:to-[#91857a]/20 border-[#b8a696] dark:border-[#91857a]/40"
-          >
+          <Container title="About Me">
             <div className="space-y-4 text-base leading-relaxed">
               <p>
                 I am a CS graduate from <strong>UC Riverside</strong> with
@@ -193,14 +190,14 @@ export default function Home() {
         {/* ── Experience ────────────────────────────────── */}
         <section id="experience" className="px-8 py-12 max-w-5xl mx-auto">
           <Container title="Experience">
-            <div className="relative pl-6">
+            <div className="relative pl-8">
               {/* Timeline line */}
-              <div className="absolute left-0 top-2 bottom-0 w-0.5 bg-sky-500/30 dark:bg-sky-400/20" />
+              <div className="absolute left-2 top-2 bottom-0 w-0.5 bg-sky-500/30 dark:bg-sky-400/20" />
 
               {/* ── Handshake AI ── */}
               <div className="relative pb-10">
                 {/* Timeline dot */}
-                <div className="absolute -left-[31px] top-1 w-4 h-4 rounded-full bg-sky-500 border-2 border-white dark:border-zinc-900" />
+                <div className="absolute -left-8 top-1 w-4 h-4 rounded-full bg-sky-500 border-2 border-white dark:border-zinc-900" />
 
                 {/* Role header */}
                 <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-1">
@@ -277,7 +274,7 @@ export default function Home() {
               {/* ── ACM ── */}
               <div className="relative pb-2">
                 {/* Timeline dot */}
-                <div className="absolute -left-[31px] top-1 w-4 h-4 rounded-full bg-sky-500 border-2 border-white dark:border-zinc-900" />
+                <div className="absolute -left-8 top-1 w-4 h-4 rounded-full bg-sky-500 border-2 border-white dark:border-zinc-900" />
 
                 {/* Role header */}
                 <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-1">
