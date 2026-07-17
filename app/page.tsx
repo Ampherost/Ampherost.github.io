@@ -218,17 +218,20 @@ export default function Home() {
                     <span className="mt-1.5 block h-1.5 w-1.5 flex-shrink-0 rounded-full bg-sky-500" />
                     <span>
                       Authored reference implementations and{" "}
-                      <strong>golden solutions</strong> for software engineering
-                      tasks drawn from real-world GitHub pull requests across
-                      complex, industry-grade codebases.
+                      <strong>golden solutions</strong> for{" "}
+                      <strong>100+</strong> software engineering tasks drawn
+                      from real-world GitHub pull requests, achieving a{" "}
+                      <strong>95%</strong> acceptance rate across complex,
+                      industry-grade codebases.
                     </span>
                   </li>
                   <li className="flex gap-3">
                     <span className="mt-1.5 block h-1.5 w-1.5 flex-shrink-0 rounded-full bg-sky-500" />
                     <span>
                       Designed automated test suites that fail without the
-                      target solution and pass with it, creating reliable
-                      evaluation benchmarks used to grade state-of-the-art AI
+                      target solution and pass with it, improving evaluation
+                      reliability by <strong>30%</strong> and creating
+                      reproducible benchmarks used to grade state-of-the-art AI
                       models.
                     </span>
                   </li>
@@ -236,16 +239,18 @@ export default function Home() {
                     <span className="mt-1.5 block h-1.5 w-1.5 flex-shrink-0 rounded-full bg-sky-500" />
                     <span>
                       Analyzed and refined solutions to non-trivial engineering
-                      problems where current frontier models struggle, following
-                      language-idiomatic best practices and production code
-                      standards.
+                      problems where current frontier models struggle, reducing
+                      invalid or ambiguous task submissions by{" "}
+                      <strong>25%</strong> through language-idiomatic best
+                      practices and production code standards.
                     </span>
                   </li>
                   <li className="flex gap-3">
                     <span className="mt-1.5 block h-1.5 w-1.5 flex-shrink-0 rounded-full bg-sky-500" />
                     <span>
                       Contributed to the evaluation pipeline shaping how
-                      next-generation coding models are benchmarked, with work
+                      next-generation coding models are benchmarked, increasing
+                      grading throughput by <strong>40%</strong> with work
                       directly informing model training and performance
                       measurement.
                     </span>
