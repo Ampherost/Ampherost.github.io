@@ -412,9 +412,10 @@ export default function Home() {
                   "C",
                   "C#",
                   "Python",
+                  "Java",
+                  "Rust",
                   "JavaScript",
                   "TypeScript",
-                  "Rust",
                   "HTML",
                   "CSS",
                 ]}
@@ -471,6 +472,7 @@ export default function Home() {
               <BadgeGroup
                 label="Certifications"
                 items={[
+                  "Amazon Junior Software Developer Professional Certificate",
                   "Google Cloud",
                   "Agile",
                   "Docker",
