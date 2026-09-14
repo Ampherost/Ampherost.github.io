@@ -472,7 +472,6 @@ export default function Home() {
               <BadgeGroup
                 label="Certifications"
                 items={[
-                  "Amazon Junior Software Developer Professional Certificate",
                   "Google Cloud",
                   "Agile",
                   "Docker",
